@@ -1,7 +1,6 @@
-# Bandcamp Play/Pause Chrome extension
+# Bandcamp Play/Pause spacebar
 
 Most of the streaming platforms use the spacebar as a control to stop or resume the playback: Bandcamp does not and this is frustating sometimes.
-
 This is a simple Chrome extension to enable this play/pause behaviour and prevent default scrolling behaviour.
 
 ## Installation
