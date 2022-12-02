@@ -1,0 +1,30 @@
+{
+    "name": "Bandcamp Play/Pause spacebar",
+    "version": "1.0.0",
+    "description": "An extension to enable play/pause with spacebar on bandcamp",
+    "manifest_version": 3,
+    "author": "Alessio Premoli",
+    "permissions": [
+        "storage",
+        "declarativeContent",
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Bandcamp Play/Pause spacebar"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.bandcamp.com/*"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
